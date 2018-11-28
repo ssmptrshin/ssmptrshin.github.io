@@ -228,7 +228,7 @@ a.in-text:hover{
 	top: 50%;
 	right: 50%;
 	z-index: 3;
-	transform: translate(-15%, -50%);
+	transform: translate(2%, -50%);
 	background-color: rgba(0, 0, 0, 0.3);
 	height: 650px;
 	width: 700px;
@@ -266,11 +266,11 @@ a.in-text:hover{
 }
 
 #left {
-	left: calc(67% - 50vh);
+	left: calc(55% - 50vh);
 }
 
 #right {
-	right: calc(67% - 50vh);
+	right: calc(55% - 50vh);
 }
 
 #description{
@@ -290,7 +290,7 @@ h1{
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform:translateX(25%) translateY(-40%);
+	transform:translateX(15%) translateY(-40%);
 }
 
 #item{
@@ -365,10 +365,10 @@ h1{
 .video-description{
 	width: 600px;
 	height: 600px;
-	position: absolute;
+	position: relative;
 	left: 0%;
 	top: 50%;
-	transform:translateX(15%) translateY(-40%);
+	transform:translateX(10%) translateY(-40%);
 }
 
 
